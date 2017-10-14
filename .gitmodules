@@ -1,0 +1,3 @@
+[submodule "vendor/spotify-client"]
+	path = vendor/spotify-client
+	url = git@github.com:amartinj/spotify-client.git

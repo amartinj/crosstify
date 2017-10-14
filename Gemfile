@@ -7,11 +7,9 @@ end
 
 ruby '2.4.2'
 
-##########################
-# CrossTify dependencies #
-##########################
+gem 'spotify-client', path: 'vendor/spotify-client'
+#gem 'spotify-client', github: 'amartinj/spotify-client'
 
-gem 'spotify-client'
 
 ##########################
 #   Rails dependencies   #
