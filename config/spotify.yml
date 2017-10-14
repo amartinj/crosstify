@@ -1,0 +1,22 @@
+default: &default
+  redirect_uri: http://crosstify.lan:1234
+  client_id: e731351c52a847eab81b04306ae57202
+  client_secret: 9daf7d62eb5b490b876c69070067b22c
+  raise_errors: true
+
+  #Connection properties
+  retires: 0
+  read_timeout: 10
+  write_timeout: 10
+  persistent: false
+
+development:
+  <<: *default
+
+test:
+  <<: *default
+
+production:
+  <<: *default
+
+
